@@ -227,7 +227,7 @@ ESP8266_Result_t ESP8266_Init(ESP8266_t* ESP8266, uint32_t baudrate) {
 	ESP8266_RESET_LOW;
 	
 	/* Delay for while */
-	ESP8266_DELAYMS(ESP8266, 100);
+    ESP8266_DELAYMS(ESP8266, 100);
 	
 	/* Set pin high */
 	ESP8266_RESET_HIGH;
